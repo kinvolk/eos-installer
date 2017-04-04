@@ -302,7 +302,7 @@ done_cb (GtkButton *button, GisSummaryPage *page)
       break;
     }
 
-    launch_tutorial (page);
+    log_user_in (page);
 }
 
 static void
